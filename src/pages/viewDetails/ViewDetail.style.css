@@ -1,0 +1,41 @@
+.viewData{
+    position: relative;
+    top: 40px;
+    margin: 10px auto;
+    padding: 12px;
+    width: 480px;
+    height: fit-content;
+    background: #fff;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .3);
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.viewData .profileContainer{
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+    background: #f0f0f0;
+    border-radius: 50%;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/3237/3237472.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.viewData .profileDetails{
+    padding: 12px;
+}
+.viewData .profileDetails h4{
+    font-size: 30px;
+    margin: 6px;
+    font-family: 'Caveat', cursive;
+}
+.viewData .profileDetails p{
+    color: rgba(0, 0, 0, .5);
+    font-size: 18px;
+    font-family: sans-serif;
+}

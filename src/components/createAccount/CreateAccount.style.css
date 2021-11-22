@@ -1,0 +1,28 @@
+.app-body{
+    position: relative;
+    top: 40px;
+    margin: 10px auto;
+    padding: 12px;
+    width: 480px;
+    height: fit-content;
+    background: #fff;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .3);
+    text-align: center;
+    border-radius: 8px;
+  }
+  .app-body form{
+    display: flex;
+    width: 100%;
+    height: 220px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .app-body .title{
+    margin-bottom: 10px;
+  }
+  .app-body .title h3{
+    text-align: left;
+    padding: 10px 16px 10px 0px;
+    border-bottom: 4px solid rgba(0, 0, 0, .5);
+    width: fit-content;
+  }

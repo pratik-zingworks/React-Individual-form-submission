@@ -1,0 +1,22 @@
+.account-container{
+    margin: auto;
+    width: 94%;
+    padding: 20px;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.account-container .header{
+    width: 100%;
+    padding: 12px;
+    height: fit-content;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .3);
+    border-radius: 8px;
+
+}
+.account-container .display-body{
+   position: relative;
+   margin-top: 20px;
+}
